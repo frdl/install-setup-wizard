@@ -150,7 +150,7 @@ interface StubRunnerInterface
 	
 }//namespace frdlweb
 
-namespace App\compiled\Instance\MimeStub2\MimeStubEntity408263755{
+namespace App\compiled\Instance\MimeStub2\MimeStubEntity465909384{
 use frdl;
 use frdlweb\StubItemInterface as StubItemInterface;	 
 use frdlweb\StubHelperInterface as StubHelperInterface;
@@ -2163,14 +2163,14 @@ call_user_func(function($version,$workspace){
 --4444EVGuDPPT
 Content-Type: application/x-httpd-php;charset=utf-8
 Content-Disposition: php ;filename="$HOME/apc_config.php";name="stub apc_config.php"
-Content-Md5: 95c413f67b8c20860030be244a6a130c
-Content-Sha1: 286f3a82f3caa283dbc795d2972e065adb004076
+Content-Md5: 8bdc2cb8a6271fa4f405fe1a63938ac7
+Content-Sha1: 0c19db83ddf2032007d4337fef88381418be8fbc
 Content-Length: 201
 
 
 	
 			    return array (
-  'hashed_password' => '$2y$10$0nQDX4xic.E.AXm9yzjmC.vyg61OmiMGFMmUpFmKlUSFD/1CF.Gba',
+  'hashed_password' => '$2y$10$fjS.v0PZHRQ/uMle361pwOTCF7B.RaPUnYNG3IQ5iguNtgct0vfUG',
   'workspace' => 'frdl.webfan.de',
   'installed_from_hps_blog_id' => 113,
 );
@@ -4686,8 +4686,8 @@ Content-Disposition: "php" ; filename="$HOME/version_config.php" ; name="stub ve
 Content-Type: application/x-httpd-php
 
 <?php return array (
-  'time' => 1589426130,
-  'version' => '0.0.8.5251281',
+  'time' => 1589897310,
+  'version' => '0.0.8.5722461',
 ); ?>
 --3333EVGuDPPT
 Content-Disposition: "php" ; filename="$DIR_PSR4/frdl/Lint/Php.php" ; name="class frdl\Lint\Php"
@@ -9965,9 +9965,11 @@ process.once('ready:angularjs:root', function(){
 }//if($this->AppShield->isAutoupdate()){
 ?>		
 process.once('ready:angularjs:root', function(){	
+  setTimeout(function(){	
 	process.nextTick(function(){	
 		weiter=true;
-	});	
+	});
+  }, 750);	  
 });	
 	
 	
@@ -10012,8 +10014,14 @@ process.once('ready:angularjs:root', function(){
 </div>
 
 	
+	
+	
+	
+	
 
+	
 </div>	
+	
 	
 	
 <intent
@@ -10022,8 +10030,8 @@ process.once('ready:angularjs:root', function(){
     href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" 
     title="Frdlweb/Webfan Installshield @ <?php echo $_SERVER['SERVER_NAME']; ?>" 
     disposition="new" 
-    icon="https://domainundhomepagespeicher.webfan.de/favicon.ico" ></intent>	
-	
+    icon="https://domainundhomepagespeicher.webfan.de/favicon.ico" ></intent>
+		
 
 	
 	
