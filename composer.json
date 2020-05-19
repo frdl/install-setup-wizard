@@ -2,6 +2,7 @@
 	"name": "frdl\/install-setup-wizard",
 	"type": "frdl-public",
 	"description": "Installer/Setup-Wizard to create your Frdlweb-Workspace (Development-Server).",
+	"keywords" : ["1.3.6.1.4.1.37553.8.1.8.8.11", "1.3.6.1.4.1.37553.8.1.8.8.11.40"],
 	"license": ["MIT"],
 	"homepage" : "https://github.com/frdl/install-setup-wizard",
 	"repositories": [{
