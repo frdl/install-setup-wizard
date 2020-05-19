@@ -15,8 +15,8 @@ https://frdl.webfan.de/install/php/ provides an UI you can download and use to c
 composer create-project frdl/project <dir>
 ````
 <a name="webadmin"></a>
-* Make directory `./web` public, e.g. by creating a vhost with this dir as DOCUMENT_ROOT.
-* Login to `./web/admin.php` with the username of the process the current (web-)script is running on and the default-password "admin" and CHANGE THE PASSWORD!
+* Make directory `./` public, e.g. by creating a vhost with this dir as DOCUMENT_ROOT.
+* Login to `./admin.php` with the username of the process the current (web-)script is running on and the default-password "admin" and CHANGE THE PASSWORD!
 * Setup:
   * Visit the `System` Menu to setup and configure the requirements:
         * Setup `Composer` in the `System`-Page       
@@ -42,7 +42,7 @@ composer create-project frdl/project <dir>
 ![Compile your project](https://cdn.webfan.de/screenshots/frdlweb_compile.jpg)
 
 ## Modules/Extensions
-To develop a Module for this framework, you have to publish a package of type "frdl-module" or "frdl-extension".
+To develop a Module for this framework, you have to publish a package of e.g. type "frdl-module" or "frdl-extension".
 Following the directory-structure and naming conventions of the framework it will be [compiled](https://frdl.webfan.de/install/?salt=&source=Webfan/App/AppBuilderServiceProvider) by frdl.
 Documentation follows/to do...
 
