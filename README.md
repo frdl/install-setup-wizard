@@ -12,7 +12,7 @@ https://frdl.webfan.de/install/php/ provides an UI you can download and use to c
 ### Configuration and Usage
 * Create boilerplate (optional) `not yet supported`
 ````
-composer create-project frdl/project <dir>
+composer create-project frdl/install-setup-wizard <dir>
 ````
 <a name="webadmin"></a>
 * Make directory `./` public, e.g. by creating a vhost with this dir as DOCUMENT_ROOT.
