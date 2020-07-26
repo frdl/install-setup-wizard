@@ -97,7 +97,10 @@
 namespace frdlweb{
 	
 
-
+if($_SERVER['REMOTE_ADDR'] !== '127.0.0.1'){
+ // die(basename(__FILE__).__LINE__);
+}
+	
 
 if (!\interface_exists(StubHelperInterface::class, false)) {	
  interface StubHelperInterface
@@ -150,7 +153,7 @@ interface StubRunnerInterface
 	
 }//namespace frdlweb
 
-namespace App\compiled\Instance\MimeStub2\MimeStubEntity592827427{
+namespace App\compiled\Instance\MimeStub2\MimeStubEntity466314828{
 use frdl;
 use frdlweb\StubItemInterface as StubItemInterface;	 
 use frdlweb\StubHelperInterface as StubHelperInterface;
@@ -2149,14 +2152,14 @@ call_user_func(function($version,$workspace){
 --4444EVGuDPPT
 Content-Type: application/x-httpd-php;charset=utf-8
 Content-Disposition: php ;filename="$HOME/apc_config.php";name="stub apc_config.php"
-Content-Md5: 0d8f3cefcdc5d3bc81e2caabc2555d4e
-Content-Sha1: 5930b4120071a6fef906c5f6daf4a5e99d6e0e01
+Content-Md5: 5d5e9151a1bd375015545dad32ffdccb
+Content-Sha1: ccd71342c0de538ab494d618fd7994416155deec
 Content-Length: 201
 
 
 	
 			    return array (
-  'hashed_password' => '$2y$10$a2wlzt2Y24EXjQ8Eht2B4OMW6ngy3ZYMXd0.N5kVVzw95fosvPG0C',
+  'hashed_password' => '$2y$10$T1C6TFk0GyS.JEfWQ9oFgeVW3VZlNPEtD56MjOMYuzUq3B.UJ7rA6',
   'workspace' => 'frdl.webfan.de',
   'installed_from_hps_blog_id' => 113,
 );
@@ -2541,7 +2544,7 @@ Content-Disposition: php ;filename="$DIR_LIB/frdl/A.php";name="class frdl\A"
  	
   const FN_ASPECTS = 'aspects';	
      /**
-    *  default $SEMRÃÂ´s
+    *  default $SEMRÃƒÂ‚Ã‚Â´s
 	*  const  SERVER_ROUTER = {$cmd=SERVER} . {$format} . {$modul} . {$outputbuffers = explode(',')} 
 	*/
 	const TPL_SERVER_ROUTE = '{$cmd}.{$responseformat}.{$modul}.{$responsebuffers}';
@@ -5115,7 +5118,7 @@ Content-Type: application/x-httpd-php
 /**
  * Dot - PHP dot notation access to arrays
  *
- * @author  Riku SÃÂ¤rkinen <riku@adbar.io>
+ * @author  Riku SÃƒÂƒÃ‚Â¤rkinen <riku@adbar.io>
  * @link    https://github.com/adbario/php-dot-notation
  * @license https://github.com/adbario/php-dot-notation/blob/2.x/LICENSE.md (MIT License)
  */
