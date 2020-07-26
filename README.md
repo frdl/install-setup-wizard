@@ -34,6 +34,7 @@ composer create-project frdl/install-setup-wizard <dir>
     
  * `Tip: rename the admin.php file to a new name harder to guess!`
  * `Tip: enable the autoupdate and adminalert features and options if present!`
+ * `Tip: edit/uncomment the lines 100-101 of admin.php AFTER EVERY UPDATE/INSTALL!` (this SHOULD be provided as config option in next updates...)
  
 
 ## Screenshots
