@@ -3,6 +3,8 @@
 
 Kickstarter boilerplate to be used by `composer create-project` command. Demo/Test Application.
 
+# New Version(s)
+New versions continue [here at `webfat`](https://github.com/frdlweb/webfat)!
 
 ## Installation
 ### Installation (via UI) - Recommended way
